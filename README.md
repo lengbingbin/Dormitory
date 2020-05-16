@@ -11,3 +11,8 @@
 5.在浏览器中输入http://localhost:8080/Dormitory/login.jsp(端口号自己设定，默认8080)  
 6.先注册，或者直接在数据库中创建用户信息  
 
+项目效果  
+登录界面  
+ ![image](https://github.com/lengbingbin/Dormitory/blob/master/login.png)  
+数据界面  
+ ![image](https://github.com/lengbingbin/Dormitory/blob/master/index.png)  
