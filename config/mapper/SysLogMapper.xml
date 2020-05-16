@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="zhb.dao.SysLogMapper">
+ 	<insert id="save" parameterType="zhb.pojo.SysLog">
+ 		INSERT INTO zhb_dormitory.t_s_log (id,userName,visitTime,method,executionTime,ip,url) 
+ 		values (#{id},1,#{visitTime},#{method},#{executionTime},#{ip},#{url})
+ 	</insert>
+</mapper>
